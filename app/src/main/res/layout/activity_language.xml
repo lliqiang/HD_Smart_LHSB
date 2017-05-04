@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_language"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_laucher"
+    tools:context="com.hengda.linhai.m.ui.LanguageActivity">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试版本信息"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentRight="true"
+        android:paddingRight="30dp"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:id="@+id/title_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@mipmap/logo_language" />
+    <LinearLayout
+        android:id="@+id/ll_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_language"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/chinese_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/selector_chinese"
+            />
+        <ImageView
+            android:id="@+id/enlish_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+           android:background="@drawable/selector_englsh" />
+
+        <ImageView
+            android:id="@+id/japanese_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+           android:background="@drawable/selector_japanese" />
+
+        <ImageView
+            android:id="@+id/korean_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+           android:background="@drawable/selector_korean" />
+    </LinearLayout>
+</RelativeLayout>

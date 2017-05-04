@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hengda.linhai.m.fragment.MapFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/map_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:paddingStart="12dp"
+        app:tabGravity="center"
+        android:background="@mipmap/bf_scan"
+        app:tabIndicatorColor="@color/colorBlack"
+        app:tabMode="fixed"
+        app:tabPaddingEnd="30dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        app:tabTextAppearance="@style/MyMapTabLayout"
+        app:tabSelectedTextColor="@color/colorBlack"
+        app:tabTextColor="@color/colorTranBlack" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/container_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/location_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/img_loaction_map" />
+            <ImageView
+                android:id="@+id/route_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@mipmap/img_route" />
+            <ImageView
+                android:id="@+id/heart_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/img_heart_map" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

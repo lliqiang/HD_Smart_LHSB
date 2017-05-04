@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@mipmap/bg_item_history"
+    android:layout_height="120dp">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp">
+    <View
+        android:layout_width="10px"
+        android:layout_height="25dp"
+        android:background="@color/colorOrange"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:id="@+id/item_title_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="战国印纹陶"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"/>
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/content_comment"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="26dp"
+        android:maxLines="3"
+        android:textSize="12sp"
+        android:text="战国印纹陶确实不错"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/line_message"
+        android:layout_marginLeft="18dp"
+        />
+    <TextView
+        android:id="@+id/time_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:textSize="10sp"
+        android:text="2016.10.23 / 3:30"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"/>
+</LinearLayout>

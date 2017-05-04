@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.hengda.linhai.m.fragment.TraceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:layout_width="2px"
+        android:layout_height="match_parent"
+        android:background="@color/colorGray"
+        android:layout_marginLeft="20dp"/>
+
+    <ListView
+        android:id="@+id/lv_trace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+</FrameLayout>

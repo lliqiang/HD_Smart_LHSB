@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/container_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11" />
+    <RadioGroup
+        android:id="@+id/main_group"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorWhite"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_home"
+            android:button="@null"
+            android:gravity="center" />
+        <RadioButton
+            android:id="@+id/rb_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_map"
+            android:button="@null"
+            android:drawablePadding="2dp"
+            android:gravity="center" />
+        <RadioButton
+            android:id="@+id/rb_ar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_ar"
+            android:button="@null"
+            android:drawablePadding="2dp"
+            android:gravity="center" />
+        <RadioButton
+            android:id="@+id/rb_360"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_360"
+            android:button="@null"
+            android:drawablePadding="2dp"
+            android:gravity="center" />
+        <RadioButton
+            android:id="@+id/rb_mine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_person"
+            android:button="@null"
+            android:drawablePadding="2dp"
+            android:gravity="center" />
+
+    </RadioGroup>
+</LinearLayout>

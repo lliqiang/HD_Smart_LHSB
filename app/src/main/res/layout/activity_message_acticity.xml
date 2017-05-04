@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_message_acticity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_guide"
+    android:orientation="vertical"
+    tools:context="com.hengda.linhai.m.ui.MessageActicity">
+
+    <ImageView
+        android:id="@+id/back_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/img_back"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout_message"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:paddingStart="12dp"
+        app:tabGravity="center"
+        app:tabMinWidth="160dp"
+        app:tabIndicatorColor="@color/colorBlack"
+        app:tabMode="fixed"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        app:tabPaddingEnd="12dp"
+        app:tabTextAppearance="@style/MyTabLayoutTextAppearanceInverse"
+        app:tabSelectedTextColor="@color/colorBlack"
+        app:tabTextColor="@color/colorTranBlack" />
+    <View
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="2px"
+        android:background="@color/colorBlack"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp" />
+</LinearLayout>

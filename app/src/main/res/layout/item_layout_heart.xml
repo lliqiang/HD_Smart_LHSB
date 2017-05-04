@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@mipmap/bg_item_history"
+
+    android:layout_height="120dp">
+    <ImageView
+        android:id="@+id/img_item_heart"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:paddingTop="2dp"
+        android:paddingBottom="10dp"
+        android:src="@mipmap/listdef"
+
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/item_title_heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#AAAAAA"
+            android:layout_marginLeft="18dp"
+            android:textSize="16sp"
+            android:layout_marginTop="40dp"
+            android:ellipsize="end"
+            android:text="序言"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/line_heartl"/>
+            <ImageView
+                android:id="@+id/item_heart_heart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/img_heart"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/line_heart_s"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/time_heart"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="18dp"
+           android:layout_marginTop="5dp"
+            android:text="2016.10.20 /2:30"/>
+    </LinearLayout>
+</LinearLayout>

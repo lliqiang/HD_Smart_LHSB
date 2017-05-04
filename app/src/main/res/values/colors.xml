@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGray">#55000000</color>
+    <color name="colorBlue">#1B75B1</color>
+    <color name="colorBluee">#2975E8</color>
+
+    <color name="colorBrouse"> #E8B66C</color>
+    <color name="colorOrange">#b9a874</color>
+    <color name="colorTranBlack">#aa000000</color>
+    <color name="colorPlay">#F7F7F7</color>
+    <color name="colorComment">#EEEEEE</color>
+
+
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_laser">#25a0f5</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+
+    <color name="crn0">#25a0f5</color>
+    <color name="f">#ffffff</color>
+    <color name="e5">#e5e5e5</color>
+    <color name="cb9">#999999</color>
+    <color name="gray">#ebebeb</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="gray_transparent">#a6efefef</color>
+    <color name="gray_dark_transparent">#ae858585</color>
+    <color name="black">#000000</color>
+    <color name="ivory">#f8efe6</color>
+    <color name="ivory_dark">#f7e8d9</color>
+    <color name="green">#38be55</color>
+    <color name="green_dark">#2da346</color>
+    <color name="red">#e94f4f</color>
+
+
+</resources>

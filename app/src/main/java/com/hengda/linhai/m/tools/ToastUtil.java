@@ -1,0 +1,21 @@
+package com.hengda.linhai.m.tools;
+
+import android.widget.Toast;
+import com.hengda.linhai.m.app.HdApplication;
+/**
+ * Created by jingbin on 2016/12/14.
+ * 单例Toast
+ */
+
+public class ToastUtil {
+
+    private static Toast mToast;
+
+    public static void showToast(String text) {
+        if (mToast == null) {
+            mToast = Toast.makeText(HdApplication.mContext, text, Toast.LENGTH_SHORT);
+        }
+        mToast.setText(text);
+        mToast.show();
+    }
+}

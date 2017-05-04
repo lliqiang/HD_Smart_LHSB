@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:layout_height="320dp"
+    android:gravity="center_vertical"
+    android:background="@mipmap/bf_exhibit"
+    android:layout_gravity="center">
+<ImageView
+    android:id="@+id/img_viewpageritem"
+    android:layout_width="210dp"
+    android:layout_height="190dp"
+    android:paddingLeft="9dp"
+    android:paddingRight="9dp"
+
+    android:layout_gravity="center"
+    android:scaleType="fitXY"
+    android:src="@mipmap/img_exhibit_def"/>
+    <TextView
+        android:id="@+id/tv_viewpgeritem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+       android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:autoLink="all"
+        android:textColorLink="@color/black"
+        android:text="历史文化陈列厅"/>
+
+
+</LinearLayout>

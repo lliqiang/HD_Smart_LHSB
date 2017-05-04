@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+  >
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/img_exhibit_def"
+        android:scaleType="fitXY"
+        android:layout_weight="4"
+        android:id="@+id/img_messageFragment" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        android:layout_weight="7">
+        <TextView
+            android:id="@+id/title_messageFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/colorBlack"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:text="珍藏式书展画"/>
+        <TextView
+            android:id="@+id/content_messageFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorBlack"
+            android:text="临海市博物馆是综合式的历史文物博物馆，成立于1953年3月，占地面积为3500平方米"
+            android:maxLines="3"
+            />
+        <TextView
+            android:id="@+id/time_messageFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|bottom"
+            android:gravity="bottom"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:textStyle="bold"
+            android:text="2017.06.19"/>
+    </LinearLayout>
+</LinearLayout>

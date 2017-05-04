@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:background="@mipmap/bg_creategroup"
+    android:layout_gravity="center"
+    android:id="@+id/ll_join"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:layout_marginLeft="20dp"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:textSize="18sp"
+    android:text="加入群组:"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/line_group"/>
+    <!--<EditText-->
+        <!--android:id="@+id/edit_group"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:layout_marginRight="30dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="@android:drawable/edit_text"-->
+        <!--android:textSize="12sp"-->
+        <!--android:hint="输入想要加入的群组号"/>-->
+    <LinearLayout
+        android:id="@+id/customPanel_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/sure_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="确定"
+        android:background="@drawable/selector_sure"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/cancel_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center"
+        android:background="@drawable/selector_cancel"
+        android:text="取消"/>
+</LinearLayout>

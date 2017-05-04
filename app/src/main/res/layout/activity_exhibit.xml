@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hengda.linhai.m.ui.ExhibitActivity">
+
+    <ImageView
+        android:id="@+id/img_def"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/bg_guide" />
+
+    <com.hengda.linhai.m.view.PullDoorView
+        android:id="@+id/pulldoorView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/activity_exhibit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_seceondExhibit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:id="@+id/ll_exhibit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="90dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/img_second_logo" />
+
+                <ImageView
+                    android:id="@+id/img_floor_second"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/img_floor_second" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/back_secondExhibit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/back_orange" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    android:textColor="@color/colorOrange"
+    android:lineSpacingExtra="3dp"
+    android:text="临海市临江人的故都。上世纪八十年代初，临海人发现了距今约十万年的“临江人化石；临海先人在这里居住，过着和谐美满的生活"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="130dp"
+    />
+            <ImageView
+                android:id="@+id/img_pull"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+    </com.hengda.linhai.m.view.PullDoorView>
+</RelativeLayout>

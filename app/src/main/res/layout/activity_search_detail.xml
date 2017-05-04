@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_search_detail"
+    tools:context="com.hengda.linhai.m.ui.SearchDetailActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    >
+    <ImageView
+        android:id="@+id/back_searchDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/back_orange"
+        android:padding="5dp"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorOrange"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:text="@string/search_result"/>
+</RelativeLayout>
+    <ListView
+        android:id="@+id/lv_search_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
